@@ -24,6 +24,8 @@ void printForLoop () {
     }
 }
 
+// While Loop example
+
 void printWhileLoop (int number) {
     while (number <101) {
         if (number %3 ==0 && number %5 ==0) {
@@ -50,7 +52,7 @@ int main(int argc, const char * argv[]) {
 
     printf("\n Assignment 1 completed with While Loop below:\n");
     
-    printWhileLoop(1);
+    printWhileLoop(1); // execute while loop
     
     return 0;
 }
